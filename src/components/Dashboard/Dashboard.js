@@ -6,11 +6,11 @@ import TableDash from "./TableDash";
 // ICONS
 import SearchIcon from "@mui/icons-material/Search";
 
-export default function Dashboard() {
+export default function Dashboard({page}) {
   return (
     <Box
       sx={{
-        display: "flex",
+        display: page === 0 ? "flex" : "none",
         flexDirection: "column",
         gap: 2,
       }}

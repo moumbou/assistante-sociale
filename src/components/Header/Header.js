@@ -5,10 +5,13 @@ import React from "react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
-import { blue, green, pink } from "@mui/material/colors";
+import { blue, green, grey, pink } from "@mui/material/colors";
 import LogoSide from "./LogoSide";
 
-export default function Header() {
+export default function Header({ setPage, page }) {
+  const changePage = (page) => {
+    setPage(page);
+  };
   return (
     <Box
       sx={{
@@ -45,14 +48,20 @@ export default function Header() {
           },
         }}
       >
-        <Avatar sx={{ bgcolor: pink[500] }}>
-          <NotificationsIcon />
+        <Avatar
+          sx={{ bgcolor: page !== 0 ? blue[500] : grey[500] }}
+          onClick={() => changePage(0)}
+        >
+          <AccountCircleIcon />
         </Avatar>
-        <Avatar sx={{ bgcolor: green[500] }}>
+        <Avatar
+          sx={{ bgcolor: page !== 1 ? green[500] : grey[500] }}
+          onClick={() => changePage(1)}
+        >
           <AddCircleIcon />
         </Avatar>
-        <Avatar sx={{ bgcolor: blue[500] }}>
-          <AccountCircleIcon />
+        <Avatar sx={{ bgcolor: pink[500] }}>
+          <NotificationsIcon />
         </Avatar>
       </Box>
     </Box>

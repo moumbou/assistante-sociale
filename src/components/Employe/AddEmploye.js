@@ -4,10 +4,10 @@ import { Box } from "@mui/system";
 import React from "react";
 import AddEmployeStepper from "./AddEmployeStepper";
 
-export default function AddEmploye() {
+export default function AddEmploye({ page }) {
   return (
     <Box sx={{
-        display: 'flex',
+        display: page === 1 ? "flex" : "none",
         flexDirection: 'column',
         height: '100%',
         gap: 2
