@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="I1-BKpGgBZhrRX93OD_R">
-    <mxGraphModel>
+    <mxGraphModel dx="3742" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-3" value="&lt;ol&gt;&lt;li&gt;admin&lt;/li&gt;&lt;li&gt;responsable&lt;/li&gt;&lt;li&gt;employee&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="230" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-4" value="user roles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-5" value="user structure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-6" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;full name&lt;/li&gt;&lt;li&gt;sex&lt;/li&gt;&lt;li&gt;email&lt;/li&gt;&lt;li&gt;phone&lt;/li&gt;&lt;li&gt;birthday&lt;/li&gt;&lt;li&gt;document&amp;nbsp;document[ ]&lt;/li&gt;&lt;li&gt;business business[ ]&lt;/li&gt;&lt;li&gt;role user_role&lt;/li&gt;&lt;li&gt;notifications notification[ ]&amp;nbsp;&lt;/li&gt;&lt;li&gt;views views[ ]&lt;/li&gt;&lt;li&gt;settings json&lt;/li&gt;&lt;li&gt;metadata json&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="350" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-7" value="document" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-8" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;url&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;user_id&lt;/li&gt;&lt;li&gt;user user&lt;/li&gt;&lt;li&gt;type document_type&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="730" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-9" value="document type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-10" value="&lt;ul&gt;&lt;li&gt;CONTRAT_TRAVAIL&lt;/li&gt;&lt;li&gt;AUTRE&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-11" value="business" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="177" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-12" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;address&lt;/li&gt;&lt;li&gt;logo&lt;/li&gt;&lt;li&gt;business_num&lt;/li&gt;&lt;li&gt;team user[ ]&lt;/li&gt;&lt;li&gt;news news[ ]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="217" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-13" value="news" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-14" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;title&lt;/li&gt;&lt;li&gt;type&lt;/li&gt;&lt;li&gt;business business[ ]&lt;/li&gt;&lt;li&gt;content&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="440" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-17" value="notification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-18" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;type notification_type&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;viewed&lt;/li&gt;&lt;li&gt;user_id&lt;/li&gt;&lt;li&gt;user user&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="760" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-19" value="notification type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-20" value="&lt;ul&gt;&lt;li&gt;NEWS&lt;/li&gt;&lt;li&gt;MESSAGE&lt;/li&gt;&lt;li&gt;DOCUMENT&lt;/li&gt;&lt;li&gt;OTHER&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="640" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-21" value="formation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-22" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;video&lt;/li&gt;&lt;li&gt;title&lt;/li&gt;&lt;li&gt;description&lt;/li&gt;&lt;li&gt;thumbnail&lt;/li&gt;&lt;li&gt;duration&lt;/li&gt;&lt;li&gt;views views&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="960" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-23" value="view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lJ96fPL1G1YNznyQS1Vw-24" value="&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;created_at&lt;/li&gt;&lt;li&gt;updated_at&lt;/li&gt;&lt;li&gt;formation_id&lt;/li&gt;&lt;li&gt;formation formation&lt;/li&gt;&lt;li&gt;user_id&lt;/li&gt;&lt;li&gt;user user&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="960" width="200" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
