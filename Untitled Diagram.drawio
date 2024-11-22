@@ -1,14 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="garantie WIM" id="I1-BKpGgBZhrRX93OD_R">
-    <mxGraphModel dx="2880" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2880" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3KdDPt9_6udBDojBiGqd-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="720" height="1040" as="geometry" />
+        </mxCell>
         <mxCell id="3KdDPt9_6udBDojBiGqd-4" value="&lt;h4&gt;&lt;/h4&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;ul&gt;&lt;li&gt;id String @unique&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;full_name String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;email String @unique&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;phone_num String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;password String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;signature String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;notification Json&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;paysafe ??&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;created_at Date&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;updated_at Date&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="240" height="320" as="geometry" />
+          <mxGeometry x="440" y="40" width="240" height="320" as="geometry" />
         </mxCell>
         <mxCell id="3KdDPt9_6udBDojBiGqd-5" value="&lt;h3&gt;user model&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="240" height="40" as="geometry" />
+          <mxGeometry x="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-18" value="&lt;h4&gt;&lt;/h4&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;ul&gt;&lt;li&gt;id String @unique&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;niv String @unique&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;delivery_status String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;brand String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;model String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;year_manufacture String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;version String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;pictures String[ ]&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;options String[ ]&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;certifications String[ ]&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;car_details car_details?&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;created_at Date&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;updated_at Date&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="240" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-19" value="&lt;h3&gt;car model&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-20" value="&lt;h4&gt;&lt;/h4&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;id String @unique&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;car_id String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;car car&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;ad_title String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;odometer String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;is_odometer_real Boolean&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;showen_price int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;price_reference string&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;pdsf int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;average_price_market int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;cost_price int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;transmission String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;traction String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;passangers Int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;outer_color String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;inner_color String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;doors Int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;fuel String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;engine_type String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;cylinders Int&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="480" width="240" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-21" value="&lt;h3&gt;car_details model&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-22" value="&lt;h4&gt;&lt;/h4&gt;&lt;h2&gt;&lt;/h2&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h5&gt;&lt;/h5&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;/h4&gt;&lt;h4&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;id String @unique&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;car_id String&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;car car&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;french_description String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;english_description String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;repairs_carried_out String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;original_manufacturers_warranty Json&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;warranty_good_fonctioning_french String&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;comment String&lt;/li&gt;&lt;/ul&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="120" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-23" value="&lt;h3&gt;car_description model&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3KdDPt9_6udBDojBiGqd-22" target="3KdDPt9_6udBDojBiGqd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="240" as="sourcePoint" />
+            <mxPoint x="1110" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KdDPt9_6udBDojBiGqd-20" target="3KdDPt9_6udBDojBiGqd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1050" y="560" as="sourcePoint" />
+            <mxPoint x="1100" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3KdDPt9_6udBDojBiGqd-27" value="&lt;h3&gt;car&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" width="720" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
